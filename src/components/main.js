@@ -17,7 +17,7 @@ function Main () {
     return (
         <main>
             <AnimationOnScroll animateIn="animate__bounceIn">
-                <section>
+                <section id='about'>
                     <h2>
                         About
                         <div className='breaker'></div>

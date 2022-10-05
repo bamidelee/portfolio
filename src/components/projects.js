@@ -13,7 +13,7 @@ function Projects () {
 
 
   return (
-    <div className='projectContainer'>
+    <div className='projectContainer' id='projects'>
       <AnimationOnScroll animateIn='animate__pulse'>
         <div className='project'>
           <div className='projectSet'>

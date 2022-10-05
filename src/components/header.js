@@ -48,13 +48,13 @@ function Header() {
 
           <div className='link menu-item'>
             <div  className='camoLink'>
-              <a href="#app">
+              <a href="#about">
                 <span class="material-symbols-outlined">
                   person
                 </span>
                 About
               </a>
-              <a href="#app" className='menu-item'>
+              <a href="#about" className='menu-item'>
                 <span class="material-symbols-outlined">
                    person
                 </span>
@@ -65,13 +65,13 @@ function Header() {
 
           <div className='link menu-item'>
               <div  className='camoLink'>
-                <a href="#app">
+                <a href="#projects">
                   <span class="material-symbols-outlined">
                   hub
                   </span>
                 Projects
                 </a>
-                <a href="#app" className='menu-item'>
+                <a href="#projects" className='menu-item'>
                   <span class="material-symbols-outlined">
                   hub
                   </span>
@@ -82,7 +82,7 @@ function Header() {
 
           <div className='link menu-item'>
               <div  className='camoLink'>
-                <a href="#app">
+                <a href={cv}>
                   <span class="material-symbols-outlined">
                   description
                   </span>
