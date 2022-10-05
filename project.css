@@ -1,0 +1,105 @@
+.projectSet{
+
+    width: 30vmin;
+    height: 40vmin;
+    position: relative;
+}
+
+.project h3{
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.project{
+    margin-top: 1rem;
+    display: inline-block;
+    width: 35vmin;
+}
+
+.projectContainer{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.project a{
+    font-family: 'Big Shoulders Stencil Display', cursive ;
+    transition: all .3s;
+  
+}
+
+.project a:hover{
+    transform: scale(1.5, 1.5);
+}
+
+.projectLink{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.projectItem{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    border-radius: 5%;
+    border: 2px solid #BDAB47;
+    left: 1rem;
+    top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;  
+    transition: all .5s;
+}
+
+.projectSet:hover .projectItem{
+    width: 0px;
+}
+
+.projectSet:focus .projectItem{
+    width: 0px;
+}
+
+.projectSet img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:5%;
+
+}
+
+.projectDescription{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    border: 2px solid #BDAB47;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.projectDescription p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    height: 80%;
+}
+
+.projectDescription p::-webkit-scrollbar {
+    display: none;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  html::-webkit-scrollbar {
+    background:#BDAB47;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0E0601;
+    border-radius: 20%;
+  }
