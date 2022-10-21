@@ -8,13 +8,51 @@ import tic from '../portfolio/tic-tac-toe.png'
 import toDo from '../portfolio/to-do.png'
 import sketch from '../portfolio/sketch.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import scarepic from '../portfolio/Annotation 2022-10-11 104442.png'
+import footballPic from '../portfolio/football.png'
 import "animate.css/animate.min.css";
 function Projects () {
 
 
   return (
     <div className='projectContainer' id='projects'>
-      <AnimationOnScroll animateIn='animate__pulse'>
+        <AnimationOnScroll animateIn='animate__flipInY'>
+        <div className='project'>
+          <div className='projectSet'>
+            <div className='projectItem'>
+              <img src={footballPic} alt="football" />
+            </div>
+            <div className='projectDescription'>
+                <p>  A football information platformation that provides up to date fixtures, news, highlights, standings and results of the top football leages. data is fetched from football api which is updated every 15seconds.</p>
+            </div>
+          </div>
+          <h3>Football</h3>
+          <div className='projectLink'>
+            <a href="https://football-mauve.vercel.app" target='blank'>Live</a>
+            <a href="https://github.com/bamidelee/football" target='blank'>Code</a>
+          </div>
+        </div>
+      </AnimationOnScroll>
+
+      <AnimationOnScroll animateIn='animate__flipInY'>
+        <div className='project'>
+          <div className='projectSet'>
+            <div className='projectItem'>
+              <img src={scarepic} alt="Scareflix" />
+            </div>
+            <div className='projectDescription'>
+                <p>A movie platform that provides details of scary movies. It categorize movies by popularity, top rated, trendng, and soon to be released. You can also search the TMDB catalogue for any scary movie. i fetched data from TMDB catalougue because its one of the few platforms where i cana get enough movies in one genre.</p>
+            </div>
+          </div>
+          <h3>Scareflix</h3>
+          <div className='projectLink'>
+            <a href="https://bamidelee.github.io/scareflix/" target='blank'>Live</a>
+            <a href="https://github.com/bamidelee/scareflix" target='blank'>Code</a>
+          </div>
+        </div>
+      </AnimationOnScroll>
+
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -32,7 +70,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -50,7 +88,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -68,7 +106,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -86,7 +124,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -104,7 +142,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -122,7 +160,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
@@ -140,7 +178,7 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__pulse'>
+      <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
             <div className='projectItem'>
