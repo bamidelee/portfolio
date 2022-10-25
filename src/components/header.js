@@ -13,7 +13,7 @@ import { mdiLinkedin } from '@mdi/js';
 
 
 
-function Header() {
+function Header({background, setBackground}) {
   const [sideBar, setSideBar] = useState(false)
   const particlesInit = useCallback(async (engine) => {
   
@@ -28,6 +28,7 @@ function Header() {
     <div className="header" id='app'>
       <header>
         <MenuBar sideBar={sideBar} setSideBar ={setSideBar}/>
+        <input type="checkbox" onChange={() => setBackground(!background)}/>
         <Menu isOpen={sideBar} customBurgerIcon={ false } className={ "my-menu" }  customCrossIcon={ false } disableOverlayClick>
           <div className='link menu-item'>
             <div  className='camoLink'>
@@ -117,7 +118,7 @@ function Header() {
         fullScreen: { enable: false },
           background: {
             color: {
-              value: "#0E0601",
+              value: background?'#ffffff':'#000000',
             },
           },
           fpsLimit: 120,
@@ -145,10 +146,10 @@ function Header() {
           },
           particles: {
             color: {
-              value: "#BDAB47",
+              value: "#a88f02",
             },
             links: {
-              color: "#BDAB47",
+              color: "#a88f02",
               distance: 150,
               enable: true,
               opacity: 0.5,

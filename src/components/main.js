@@ -11,11 +11,11 @@ import { mdiReact } from '@mdi/js';
 import Projects from './projects';
 import Contact from './contact';
 
-function Main () {
+function Main ({background}) {
 
 
     return (
-        <main>
+        <main style={{backgroundColor: background?'white':'black'}}>
             <AnimationOnScroll animateIn="animate__bounceIn">
                 <section id='about'>
                     <h2>

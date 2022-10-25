@@ -46,15 +46,15 @@ main h2{
 }
 
 body{
-    color: #BDAB47;
-    background-color: #0E0601;
+    color:rgb(168, 143, 2);
+    background-color: black;
     padding-bottom: 3rem;
 }
 
 .breaker{
     height: 2px;
     width: 70%;
-    background-color: #BDAB47 ;
+    background-color: rgb(168, 143, 2) ;
 }
 
 section{
@@ -87,7 +87,7 @@ main h3{
     flex-wrap: wrap;
     width: 50vmin;
     padding: 1rem;
-    background-color: #000000;
+    background-color: #000000ad;
 }
 
 .svg{

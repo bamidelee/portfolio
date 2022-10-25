@@ -1,6 +1,6 @@
 .h1Name{
   font-size: 8vmin;
-  color: rgb(189, 171, 71);
+  color: rgb(168, 143, 2);
   z-index: 5;
   left: 0;
   right: 0;
@@ -83,7 +83,7 @@
 
 a{
   text-decoration: none;
-  color:rgb(189, 171, 71) ;
+  color:rgb(168, 143, 2) ;
   border: none;
   outline: none;
   display: flex;
@@ -118,4 +118,34 @@ a{
 
 i{
   font-size: 5rem;
+}
+input[type=checkbox]{
+  -webkit-appearance: none;
+  position: fixed;
+  z-index: 20;
+  top: 2rem;
+  right: 4rem;
+  appearance: none;
+  width: 2rem;
+  height: 1rem;
+  display: grid;
+  justify-items: center;
+}
+
+input[type=checkbox]:checked:before{
+  font-family: "Material Symbols Outlined";
+  content: 'nightlight';
+  font-size: 2rem;
+  color: rgb(168, 143, 2);
+  transition: all 0.5s;
+  transform: translateX(-0.5rem);
+}
+
+input[type=checkbox]:not(:checked):before{
+  font-family: "Material Symbols Outlined";
+  content: 'light_mode';
+  font-size: 2rem;
+  color: rgb(163, 139, 0);
+  transition: all 0.5s;
+  transform: translateX(-0.5rem);
 }
