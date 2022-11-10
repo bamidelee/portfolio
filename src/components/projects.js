@@ -10,12 +10,31 @@ import sketch from '../portfolio/sketch.png'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import scarepic from '../portfolio/Annotation 2022-10-11 104442.png'
 import footballPic from '../portfolio/football.png'
+import chatPic from '../portfolio/chatbot.png'
 import "animate.css/animate.min.css";
 function Projects () {
 
 
   return (
     <div className='projectContainer' id='projects'>
+        <AnimationOnScroll animateIn='animate__flipInY'>
+        <div className='project'>
+          <div className='projectSet'>
+            <div className='projectItem'>
+              <img src={chatPic} alt="chatbot" />
+            </div>
+            <div className='projectDescription'>
+                <p>  An intelligent chatbot, with different voice for different characters. it gives 3d image of the characters and the characters can make basic moves like dance, backflip. and walk.</p>
+            </div>
+          </div>
+          <h3>Chatbot</h3>
+          <div className='projectLink'>
+            <a href="https://chatbot-amber.vercel.app/" target='blank'>Live</a>
+            <a href="https://github.com/bamidelee/chatbot" target='blank'>Code</a>
+          </div>
+        </div>
+      </AnimationOnScroll>
+
         <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
