@@ -1,9 +1,4 @@
-.iconContainer img{
-    width:200px;
-    height: 200px;
-    object-fit: fill;
-    border-radius: 50%;
-}
+
 
 .iconContainer{
     display: flex;
@@ -12,20 +7,59 @@
 }
 
 .image2{
+   
+    height: 200px;
+    width: 200px;
+    background-image: url(../Project-image.png);
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200px 200px;
+    border: 1px solid gold;
+    line-height: 8px;
+    background-repeat: no-repeat;
+}
+.image1Container{
     position: absolute;
     z-index: 3;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid gold;
 }
 
 .image1{
-   filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    opacity: 0.5;
+    background-image: url(../Project-image.png);
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    line-height: 8px;
+    word-spacing: 0.1px;
+    padding: 0;
+
 }
 
 .image3{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    opacity: 0.5;
+    height: 200px;
+    width: 200px;
+    background-image: url(../Project-image.png);
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200px 200px;
+    border: 1px solid gold;
+    line-height: 8px;
+    background-repeat: no-repeat;
 }
 
 main{

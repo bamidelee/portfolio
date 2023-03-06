@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles"
 import {bubble as Menu } from "react-burger-menu"
 import H1Name from './h1Name';
 import '../App.css';
-import cv from '../cv.pdf'
+import cv from '../cv.docx'
 import { mdiTwitter } from '@mdi/js';
 import Icon from '@mdi/react'
 import { mdiGithub } from '@mdi/js';

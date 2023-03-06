@@ -1,4 +1,4 @@
-import pic from '../Project-image.jpg'
+
 import '../styles/main.css'
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -23,9 +23,11 @@ function Main ({background}) {
                         <div className='breaker'></div>
                     </h2>
                     <div className='iconContainer'>
-                        <img src={pic} alt="ibrahim" className='image1'/>
-                        <img src={pic} alt="ibrahim" className='image2'/>
-                        <img src={pic} alt="ibrahim" className='image3'/>
+                       <div className="image1Container">
+                           <div className='image1'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
+                       </div>
+                       <div className='image2'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
+                       <div className='image3'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
                     </div>
                     <p>
                     Committed to the idea of life-long learning, I am a full stack developer with a passion for all things web development. <br />

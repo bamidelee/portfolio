@@ -11,12 +11,32 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import scarepic from '../portfolio/Annotation 2022-10-11 104442.png'
 import footballPic from '../portfolio/football.png'
 import chatPic from '../portfolio/chatbot.png'
+import odin from '../portfolio/odin pic.png'
 import "animate.css/animate.min.css";
 function Projects () {
 
 
   return (
     <div className='projectContainer' id='projects'>
+
+      <AnimationOnScroll animateIn='animate__flipInY'>
+              <div className='project'>
+                <div className='projectSet'>
+                  <div className='projectItem'>
+                    <img src={odin} alt="Naijaodin" />
+                  </div>
+                  <div className='projectDescription'>
+                      <p>  A platform that disseminates entertainment, sport, politics, and international news.</p>
+                  </div>
+                </div>
+                <h3>Naijaodin</h3>
+                <div className='projectLink'>
+                  <a href="https://naijaodin.com.ng/" target='blank'>Live</a>
+                  <a href="https://github.com/bamidelee/odin-frontend" target='blank'>Code</a>
+                </div>
+              </div>
+            </AnimationOnScroll>
+
         <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
           <div className='projectSet'>
