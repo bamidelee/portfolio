@@ -55,23 +55,6 @@ function Projects () {
         </div>
       </AnimationOnScroll>
 
-        <AnimationOnScroll animateIn='animate__flipInY'>
-        <div className='project'>
-          <div className='projectSet'>
-            <div className='projectItem'>
-              <img src={footballPic} alt="football" />
-            </div>
-            <div className='projectDescription'>
-                <p>  A football information platformation that provides up to date fixtures, news, highlights, standings and results of the top football leages. data is fetched from football api which is updated every 15seconds.</p>
-            </div>
-          </div>
-          <h3>Football</h3>
-          <div className='projectLink'>
-            <a href="https://football-mauve.vercel.app" target='blank'>Live</a>
-            <a href="https://github.com/bamidelee/football" target='blank'>Code</a>
-          </div>
-        </div>
-      </AnimationOnScroll>
 
       <AnimationOnScroll animateIn='animate__flipInY'>
         <div className='project'>
