@@ -8,10 +8,14 @@
 }
 
 .menuBar>div{
-    background-color: rgb(168, 143, 2);
+    background-color: rgb(123, 43, 169);
     height: 4px;
     width: 100%;
     margin: 2px;
+}
+
+.open>div{
+    background-color: white;
 }
 
 .closed .bar3{

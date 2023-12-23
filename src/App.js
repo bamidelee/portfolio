@@ -5,7 +5,7 @@ function App () {
   const [background, setBackground] = useState(false)
 
   return(
-    <div style={{backgroundColor: background?'white':'black'}}>
+    <div>
         <Header background = {background} setBackground = {setBackground}/>
         <Main  background = {background} setBacground = {setBackground}/>
     </div>

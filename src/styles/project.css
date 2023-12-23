@@ -20,6 +20,7 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project a{
@@ -45,7 +46,7 @@
     width: 100%;
     z-index: 3;
     border-radius: 5%;
-    border: 2px solid rgb(168, 143, 2);
+    border: 2px solid rgb(123, 43, 169);
     left: 1rem;
     top: 1rem;
     padding-right: 1rem;
@@ -73,7 +74,7 @@
     height: 100%;
     width: 100%;
     border-radius: 5%;
-    border: 2px solid rgb(168, 143, 2);
+    border: 2px solid rgb(123, 43, 169);
     padding-left: 1rem;
     padding-top: 1rem;
 }
@@ -96,10 +97,14 @@
   }
 
   html::-webkit-scrollbar {
-    background:rgb(168, 143, 2);
+    background: white;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #0E0601;
-    border-radius: 20%;
+    background: rgb(123, 43, 169);
+    border-radius: 50px;
+  }
+
+  a{
+    color: rgb(123, 43, 169);
   }

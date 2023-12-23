@@ -17,17 +17,17 @@
     background-clip: text;
     color: transparent;
     background-size: 200px 200px;
-    border: 1px solid gold;
+    border: 1px solid #7B2BA9;
     line-height: 8px;
     background-repeat: no-repeat;
 }
 .image1Container{
     position: absolute;
     z-index: 3;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid gold;
+    border: 1px solid#7B2BA9;
 }
 
 .image1{
@@ -57,13 +57,13 @@
     background-clip: text;
     color: transparent;
     background-size: 200px 200px;
-    border: 1px solid gold;
+    border: 1px solid #7B2BA9;
     line-height: 8px;
     background-repeat: no-repeat;
 }
 
 main{
-    background-color: #0E0601;
+    background-color: white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -80,15 +80,15 @@ main h2{
 }
 
 body{
-    color:rgb(168, 143, 2);
-    background-color: black;
+    color:#7B2BA9;
+    background-color: white;
     padding-bottom: 3rem;
 }
 
 .breaker{
     height: 2px;
     width: 70%;
-    background-color: rgb(168, 143, 2) ;
+    background-color: #7B2BA9;
 }
 
 section{
@@ -121,10 +121,14 @@ main h3{
     flex-wrap: wrap;
     width: 50vmin;
     padding: 1rem;
-    background-color: #000000ad;
 }
 
 .svg{
     height: 2rem;
+    fill: #7B2BA9 !important;
 
+}
+
+#about p{
+    text-align: center;
 }
