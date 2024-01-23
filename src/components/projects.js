@@ -12,12 +12,31 @@ import scarepic from '../portfolio/Annotation 2022-10-11 104442.png'
 import footballPic from '../portfolio/football.png'
 import chatPic from '../portfolio/chatbot.png'
 import odin from '../portfolio/odin pic.png'
+import brooks from '../portfolio/brooks.jpg'
 import "animate.css/animate.min.css";
 function Projects () {
 
 
   return (
     <div className='projectContainer' id='projects'>
+
+<AnimationOnScroll animateIn='animate__flipInY'>
+              <div className='project'>
+                <div className='projectSet'>
+                  <div className='projectItem'>
+                    <img src={brooks} alt="Brookstech" />
+                  </div>
+                  <div className='projectDescription'>
+                      <p>  Brooks Technology is a company that focuses on building enterprise solutions and digitalizing processes across various sectors. Currently, Brooks Technology is developing a platform for the digitalization of the judicial process (Kohus Tech) in Nigeria to assist lawyer, judges and court officials in the administration of justice through a seamless interaction.</p>
+                  </div>
+                </div>
+                <h3>Brookstech</h3>
+                <div className='projectLink'>
+                  <a href="https://brookstech.ng/" target='blank'>Live</a>
+                  <a href="https://github.com/brookstechgit/brookstech-frontend" target='blank'>Code</a>
+                </div>
+              </div>
+            </AnimationOnScroll>
 
       <AnimationOnScroll animateIn='animate__flipInY'>
               <div className='project'>

@@ -127,6 +127,10 @@ function Main({ background }) {
                                 <I icon="teenyicons:python-solid" color="#7b2ba9" width="32" height="32" />
                                     Python
                                 </div>
+                                <div className='skillItems'>
+                                <I icon="simple-icons:pug" color="#7b2ba9" width="32" height="32" />
+                                    Pug
+                                </div>
                             </div>
                         </div>
                     </AnimationOnScroll>
