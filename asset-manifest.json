@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.504cf7e1.css",
-    "main.js": "/portfolio/static/js/main.0888e321.js",
+    "main.js": "/portfolio/static/js/main.efb7ef27.js",
     "static/media/Annotation 2022-10-11 104442.png": "/portfolio/static/media/Annotation 2022-10-11 104442.f948956d0fad1209e4de.png",
     "static/media/weather.png": "/portfolio/static/media/weather.09540c0133fe7ed708dc.png",
+    "static/media/brooks.jpg": "/portfolio/static/media/brooks.cab6e55243d378f86fdb.jpg",
     "static/media/Holaaa.jpg": "/portfolio/static/media/Holaaa.8b61cc380d8c409278bb.jpg",
     "static/media/shopping.png": "/portfolio/static/media/shopping.b4802071e7983f500ff4.png",
     "static/media/Project-image.png": "/portfolio/static/media/Project-image.367f7ffb0b4b65b83256.png",
@@ -13,15 +14,15 @@
     "static/media/chatbot.png": "/portfolio/static/media/chatbot.5b220e5ed8fdafe3673e.png",
     "static/media/football.png": "/portfolio/static/media/football.e9639b6b0aab4b7dde6c.png",
     "static/media/to-do.png": "/portfolio/static/media/to-do.8754f0b5354d577fc975.png",
-    "static/media/cv.docx": "/portfolio/static/media/cv.2d2cd61f1051ca7f9b07.docx",
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.d6cb7989f06e77ce4ac6.png",
+    "static/media/cv.docx": "/portfolio/static/media/cv.b04e2f10f2ad88d7f546.docx",
     "static/media/sketch.png": "/portfolio/static/media/sketch.0118729f08463638e9ff.png",
     "index.html": "/portfolio/index.html",
     "main.504cf7e1.css.map": "/portfolio/static/css/main.504cf7e1.css.map",
-    "main.0888e321.js.map": "/portfolio/static/js/main.0888e321.js.map"
+    "main.efb7ef27.js.map": "/portfolio/static/js/main.efb7ef27.js.map"
   },
   "entrypoints": [
     "static/css/main.504cf7e1.css",
-    "static/js/main.0888e321.js"
+    "static/js/main.efb7ef27.js"
   ]
 }
