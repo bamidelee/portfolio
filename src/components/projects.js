@@ -49,7 +49,7 @@ function Projects () {
                 </div>
                 <h3>Naijaodin</h3>
                 <div className='projectLink'>
-                  <a href="https://naijaodin.com.ng/" target='blank'>Live</a>
+                  <a href="https://odin-frontend-ea5h.vercel.app/" target='blank'>Live</a>
                   <a href="https://github.com/bamidelee/odin-frontend" target='blank'>Code</a>
                 </div>
               </div>
