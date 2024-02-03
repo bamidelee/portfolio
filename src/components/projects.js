@@ -33,7 +33,6 @@ function Projects () {
                 <h3>Brookstech</h3>
                 <div className='projectLink'>
                   <a href="https://brookstech.ng/" target='blank'>Live</a>
-                  <a href="https://github.com/brookstechgit/brookstech-frontend" target='blank'>Code</a>
                 </div>
               </div>
             </AnimationOnScroll>
