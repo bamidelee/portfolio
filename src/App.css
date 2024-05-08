@@ -95,6 +95,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: normal;
+  padding: 0 1rem;
 }
 
 .aboutMarquee{
@@ -353,9 +354,8 @@ i{
     display: none;
    }
 
-   .headerTop h1{
-    font-size: 1.5rem;
-    margin-top: 2rem;
-   }
+ .about p{
+  font-size: 1.2rem;
+ }
 
 }
