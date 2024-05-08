@@ -12,31 +12,11 @@ import Projects from './projects';
 import Contact from './contact';
 import { Icon as I } from '@iconify/react';
 
-function Main({ background }) {
+function Main({ background, screenPos }) {
 
 
     return (
         <main>
-            <AnimationOnScroll animateIn="animate__bounceIn">
-                <section id='about'>
-                    <h2>
-                        About
-                        <div className='breaker'></div>
-                    </h2>
-                    <div className='iconContainer'>
-                        <div className="image1Container">
-                            <div className='image1'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
-                        </div>
-                        <div className='image2'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
-                        <div className='image3'>fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend fullstack frontend backend</div>
-                    </div>
-                    <p>
-                        Committed to the idea of life-long learning, I am a full stack developer with a passion for all things web development. <br />
-                        I'm a full-stack developer who carries a keen eye for design in a user-first approach. My focus is in creating responsive layouts on the JavaScript stack of React and NodeJS, and from my background as a teacher I'm well acquainted to bringing out solutions to complex problems.<br />
-                        Driven by curiosity and new technologies, I am continuously pushing the boundaries to create immersive, emotional and joyful experiences that blur the lines of reality through web development
-                    </p>
-                </section>
-            </AnimationOnScroll>
             <div>
                 <h2>
                     Tools & Skills
@@ -48,23 +28,23 @@ function Main({ background }) {
                             <h3>Frontend</h3>
                             <div className='skillSet'>
                                 <div className='skillItems'>
-                                    <Icon path={mdiLanguageHtml5} size={1.5} />
+                                    <Icon path={mdiLanguageHtml5} size={1.5} color={'#7B2BA9'} />
                                     HTML
                                 </div>
                                 <div className='skillItems'>
-                                    <Icon path={mdiLanguageCss3} size={1.5} />
+                                    <Icon path={mdiLanguageCss3} size={1.5} color={'#7B2BA9'}/>
                                     CSS
                                 </div>
                                 <div className='skillItems'>
-                                    <Icon path={mdiLanguageJavascript} size={1.5} />
+                                    <Icon path={mdiLanguageJavascript} size={1.5} color={'#7B2BA9'}/>
                                     JavaScript
                                 </div>
                                 <div className='skillItems'>
-                                    <Icon path={mdiLanguageTypescript} size={1.5} />
+                                    <Icon path={mdiLanguageTypescript} size={1.5} color={'#7B2BA9'}/>
                                     TypeScript
                                 </div>
                                 <div className='skillItems'>
-                                    <Icon path={mdiReact} size={1.5} />
+                                    <Icon path={mdiReact} size={1.5} color={'#7B2BA9'}/>
                                     React
                                 </div>
 
@@ -136,11 +116,7 @@ function Main({ background }) {
                     </AnimationOnScroll>
                 </div>
                 <div>
-                    <h2>
-                        Projects
-                        <div className='breaker'></div>
-                    </h2>
-                    <Projects />
+                    <Projects screenPos={screenPos}/>
                 </div>
                 <div>
                     <h2>

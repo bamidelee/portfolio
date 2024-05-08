@@ -13,7 +13,7 @@ import { mdiLinkedin } from '@mdi/js';
 
 
 
-function Header({ background, setBackground }) {
+function Header({ background, setBackground, screenPos }) {
   const [sideBar, setSideBar] = useState(false)
   const particlesInit = useCallback(async (engine) => {
 
@@ -21,14 +21,25 @@ function Header({ background, setBackground }) {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
   }, []);
 
+ 
   return (
-    <div className="header" id='app'>
+    <div className="header" id='app' style={{backgroundAttachment:'fixed'}}>
+      <div className='headerShade' style={{opacity: `${screenPos/700}`}}>
+
+      </div>
       <header>
         <MenuBar sideBar={sideBar} setSideBar={setSideBar} />
-        <Menu isOpen={sideBar} customBurgerIcon={false} className={"my-menu"} customCrossIcon={false} disableOverlayClick>
+        <div className='headerTop'>
+        {screenPos > 100 && <div className='headerTopBlur'>
+          
+        </div>}
+          <h1>
+            Ibrahim Olujide
+          </h1>
+        </div>
+        <Menu isOpen={sideBar} onClose={() => setSideBar(false)}>
 
           <a className="link" href="#app">
             <span class="material-symbols-outlined">
@@ -61,13 +72,13 @@ function Header({ background, setBackground }) {
 
           <div className='socials'>
             <a href="https://twitter.com/const_bamidele" target='blank'>
-              <Icon path={mdiTwitter} size={1.5} />
+              <Icon path={mdiTwitter} size={1.5} color={'#7B2BA9'} />
             </a>
             <a href="https://github.com/bamidelee" target='blank'>
-              <Icon path={mdiGithub} size={1.5} />
+              <Icon path={mdiGithub} size={1.5} color={'#7B2BA9'}/>
             </a>
             <a href="https://www.linkedin.com/in/olujide-ibrahim-67194223b/" target='blank'>
-              <Icon path={mdiLinkedin} size={1.5} />
+              <Icon path={mdiLinkedin} size={1.5} color={'#7B2BA9'} />
             </a>
           </div>
 
@@ -76,6 +87,7 @@ function Header({ background, setBackground }) {
         </Menu>
         <H1Name />
         <Particles
+          className='particles'
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -83,10 +95,10 @@ function Header({ background, setBackground }) {
             fullScreen: { enable: false },
             background: {
               color: {
-                value:  '#ffffff',
+                value: '#0000000',
               },
             },
-            fpsLimit: 120,
+            fpsLimit: 80,
             interactivity: {
               events: {
                 onClick: {
@@ -111,10 +123,10 @@ function Header({ background, setBackground }) {
             },
             particles: {
               color: {
-                value: "#7B2BA9",
+                value: "#FFD7CD",
               },
               links: {
-                color: "#7B2BA9",
+                color: "#FFD7CD",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
@@ -141,7 +153,7 @@ function Header({ background, setBackground }) {
                 value: 80,
               },
               opacity: {
-                value: 0.5,
+                value: 0.1,
               },
               shape: {
                 type: "circle",
@@ -154,6 +166,7 @@ function Header({ background, setBackground }) {
           }}
         />
       </header>
+
 
     </div>
   );

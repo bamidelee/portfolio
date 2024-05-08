@@ -8,15 +8,13 @@
 }
 
 .menuBar>div{
-    background-color: rgb(123, 43, 169);
+    background-color: #7B2BA9;
     height: 4px;
     width: 100%;
     margin: 2px;
 }
 
-.open>div{
-    background-color: white;
-}
+
 
 .closed .bar3{
  animation-name:bar3;
