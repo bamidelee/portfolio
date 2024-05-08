@@ -87,11 +87,25 @@
   height: fit-content !important;
 }
 
+.about h2{
+  font-size: 2.5rem;
+}
+
 .about p {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: normal;
 }
+
+.aboutMarquee{
+  font-size: 1rem;
+  color: #7B2BA9;
+  width: 95vmin !important;
+  height: 3rem !important;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
 .socials{
   display: flex !important;
   justify-content: center;

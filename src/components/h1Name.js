@@ -1,6 +1,6 @@
 
 
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Marquee from "react-fast-marquee";
 function H1Name () {
 
 
@@ -37,6 +37,7 @@ function H1Name () {
                 <h2>
                     About
                 </h2>
+                <Marquee className="aboutMarquee">Ibrahim Olujide Senior FullStack Developer</Marquee>
                 <p>
                     Committed to the idea of life-long learning, I am a full stack developer with a passion for all things web development. <br />
                     I'm a full-stack developer who carries a keen eye for design in a user-first approach. My focus is in creating responsive layouts on the JavaScript stack of React and NodeJS, and from my background as a teacher I'm well acquainted to bringing out solutions to complex problems.<br />
