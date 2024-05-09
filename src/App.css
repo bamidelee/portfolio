@@ -78,7 +78,7 @@
 }
 
 .about{
-  margin-top: 10rem;
+  margin-top: 7rem;
   text-align: center;
   color:rgb(225,215,205) ;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -347,8 +347,14 @@ i{
      transform: translateX(4vw);
    }
 
-   header{
-    height: 100vh;
+
+
+   .header{
+    height: 160vh;
+   }
+
+   .headerShade{
+    height: 162vh;
    }
 
    .headerTop{
@@ -359,4 +365,16 @@ i{
   font-size: 1.2rem;
  }
 
+}
+
+@media screen  and (max-width: 400px ) {
+  .header{
+    height: 200vh;
+   }
+
+   .headerShade{
+    height: 202vh;
+   }
+
+   
 }
