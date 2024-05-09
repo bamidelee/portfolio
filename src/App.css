@@ -44,7 +44,7 @@
 
 .headerShade{
   position: absolute;
-  height: 212vh;
+  height: 222vh;
   width: 100%;
   z-index: 5;
   background-color:rgb(19,19,19);
@@ -68,7 +68,7 @@
   background: none;
 }
 .header{
-  height: 210vh;
+  height: 220vh;
   background-image: url('./portfolio/original-e374062cb0d43cf706f219b3bd8b5b2e.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,10 +92,11 @@
 }
 
 .about p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: normal;
   padding: 0 1rem;
+  text-align: center;
 }
 
 .aboutMarquee{
