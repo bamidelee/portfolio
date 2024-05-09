@@ -1,12 +1,10 @@
 .h1Name{
   font-size: 3.5vmax;
-  z-index: 5;
   left: 0;
   right: 0;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  position:absolute;
   font-family: 'Big Shoulders Stencil Display', cursive;
   display: flex;
   flex-direction: column;
@@ -14,7 +12,11 @@
   justify-content: center;
   letter-spacing: .5rem;
   gap: 1rem;
-  padding-top: 15rem;
+  padding-top:15rem;
+  padding-bottom: 4rem;
+  position: relative;
+  z-index: 1;
+
 }
 
 .h1nameP{
@@ -44,9 +46,9 @@
 
 .headerShade{
   position: absolute;
-  height: 222vh;
+  top: 0;
+  height: 102%;
   width: 100%;
-  z-index: 5;
   background-color:rgb(19,19,19);
 }
 
@@ -65,15 +67,16 @@
 .particles{
   position: absolute;
   z-index: 5;
+  top: 0;
   background: none;
 }
 .header{
-  height: 220vh;
   background-image: url('./portfolio/original-e374062cb0d43cf706f219b3bd8b5b2e.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
- 
+  position: relative;
+  
   color:rgb(225,215,205);
 }
 
@@ -349,14 +352,6 @@ i{
 
 
 
-   .header{
-    height: 160vh;
-   }
-
-   .headerShade{
-    height: 162vh;
-   }
-
    .headerTop{
     display: none;
    }
@@ -367,14 +362,3 @@ i{
 
 }
 
-@media screen  and (max-width: 400px ) {
-  .header{
-    height: 200vh;
-   }
-
-   .headerShade{
-    height: 202vh;
-   }
-
-   
-}

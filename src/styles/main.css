@@ -69,14 +69,17 @@ main{
 }
 
 main h2{
-    margin:0;
+    margin:3rem;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     font-family: 'Big Shoulders Stencil Display', cursive;
     align-items: center;
     display: flex;
     font-size: 2rem;
+    width: 70%;
 }
+
+
 
 body{
     color:rgb(225,215,205);

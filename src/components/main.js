@@ -18,7 +18,7 @@ function Main({ background, screenPos }) {
     return (
         <main>
             <div>
-                <h2>
+                <h2 className='toolsHeader'>
                     Tools & Skills
                     <div className='breaker'></div>
                 </h2>
